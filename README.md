@@ -49,9 +49,7 @@ def embed(papers):
         if response.status_code != 200:
             raise RuntimeError("Sorry, something went wrong, please try later!")
 
-        data = json.loads(response.content.decode("utf-8"))
-
-        for paper in data["preds"]:
+        for paper in response.json()["preds"]:
             embeddings_by_paper_id[paper["paper_id"]] = paper["embedding"]
 
     return embeddings_by_paper_id
