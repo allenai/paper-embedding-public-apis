@@ -5,6 +5,11 @@ Collection of public APIs for embedding scientific papers
 
 Currently we support a single public endpoint for creating paper embeddings from papers' titles and abstracts. Future APIs may follow a similar setup. Please note that the URL used here is subject to change once we add a more permanent sub-domain for this effort.
 
+Requirements:
+
+* Send a flat JSON array where objects have at least attributes (paper_id, title, abstract)
+* Do not send batches of more than 16 papers at a time (you will receive a 422 HTTP response)
+
 Using the API (from Python):
 
 ```python
