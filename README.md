@@ -1,7 +1,11 @@
 # paper-embedding-public-apis
-Collection of public APIs for embedding scientific papers
 
-## Specter embeddings
+Collection of public APIs for embedding scientific papers.
+
+Currently supported embedding methods:
+- [SPECTER](#specter)
+
+## SPECTER
 
 Currently we support a single public endpoint for creating paper embeddings from papers' titles and abstracts. Future APIs may follow a similar setup. Please note that the URL used here is subject to change once we add a more permanent sub-domain for this effort.
 
@@ -12,7 +16,7 @@ Requirements:
 
 Note that "paper_id" can be any string value and is only used to map to the generated embedding in the result.
 
-Using the API (from Python):
+#### Python example
 
 ```python
 from typing import Dict, List
@@ -67,4 +71,21 @@ if __name__ == "__main__":
 
     # Prints { 'A': [4.089589595794678, ...], 'B': [-0.15814849734306335, ...] }
     print(all_embeddings)
+```
+
+#### Citation
+
+If using SPECTER embeddings, please cite the upcoming ACL paper:
+
+```
+@inproceedings{specter_cohan_2020,
+    title = "SPECTER: Scientific Paper Embeddings using Citation-informed TransformERs",
+    author = "Cohan, Arman and
+      Feldman, Sergey and
+      Beltagy, Iz  and
+      Downey, Doug and
+      Weld, Daniel",
+    booktitle = "ACL",
+    year = "2020",
+}
 ```
