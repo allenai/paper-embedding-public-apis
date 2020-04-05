@@ -1,0 +1,12 @@
+[
+    {
+        "paper_id": "4423127",
+        "title": "Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus",
+        "abstract": "Spike (S) proteins of coronaviruses, including the coronavirus that causes severe acute respiratory syndrome (SARS), associate with cellular receptors to mediate infection of their target cells. Here we identify a metallopeptidase, angiotensin-converting enzyme 2 (ACE2), isolated from SARS coronavirus (SARS-CoV)-permissive Vero E6 cells, that efficiently binds the S1 domain of the SARS-CoV S protein. We found that a soluble form of ACE2, but not of the related enzyme ACE1, blocked association of the S1 domain with Vero E6 cells. 293T cells transfected with ACE2, but not those transfected with human immunodeficiency virus-1 receptors, formed multinucleated syncytia with cells expressing S protein. Furthermore, SARS-CoV replicated efficiently on ACE2-transfected but not mock-transfected 293T cells. Finally, anti-ACE2 but not anti-ACE1 antibody blocked viral replication on Vero E6 cells. Together our data indicate that ACE2 is a functional receptor for SARS-CoV."
+    },
+    {
+        "paper_id": "211221",
+        "title": "Hospital outbreak of Middle East respiratory syndrome coronavirus",
+        "abstract": "Between April 1 and May 23, 2013, a total of 23 cases of MERS-CoV infection were reported in the eastern province of Saudi Arabia. Symptoms included fever in 20 patients (87%), cough in 20 (87%), shortness of breath in 11 (48%), and gastrointestinal symptoms in 8 (35%); 20 patients (87%) presented with abnormal chest radiographs. As of June 12, a total of 15 patients (65%) had died, 6 (26%) had recovered, and 2 (9%) remained hospitalized. The median incubation period was 5.2 days (95% confidence interval [CI], 1.9 to 14.7), and the serial interval was 7.6 days (95% CI, 2.5 to 23.1). A total of 21 of the 23 cases were acquired by person-to-person transmission in hemodialysis units, intensive care units, or in-patient units in three different health care facilities. Sequencing data from four isolates revealed a single monophyletic clade. Among 217 household contacts and more than 200 health care worker contacts whom we identified, MERS-CoV infection developed in 5 family members (3 with laboratory-confirmed cases) and in 2 health care workers (both with laboratory-confirmed cases)."
+    }
+]
