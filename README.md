@@ -16,7 +16,7 @@ Requirements:
 
 Note that "paper_id" can be any string value and is only used to map to the generated embedding in the result.
 
-#### Python example
+#### Python example (Python 3)
 
 ```python
 from typing import Dict, List
