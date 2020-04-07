@@ -25,8 +25,7 @@ import json
 import requests
 
 
-# Current location of the embedding API (subject to change)
-URL = "https://9yqruv40oc.execute-api.us-west-2.amazonaws.com/prod/specter/v1/invoke"
+URL = "https://model-apis.semanticscholar.org/specter/v1/invoke"
 MAX_BATCH_SIZE = 16
 
 
