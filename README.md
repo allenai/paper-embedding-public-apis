@@ -78,7 +78,7 @@ If using SPECTER embeddings, please cite the upcoming ACL paper:
 
 ```
 @inproceedings{specter_cohan_2020,
-    title = "SPECTER: Scientific Paper Embeddings using Citation-informed TransformERs",
+    title = "{SPECTER: Document-level Representation Learning using Citation-informed Transformers}",
     author = "Cohan, Arman and
       Feldman, Sergey and
       Beltagy, Iz  and
