@@ -11,7 +11,8 @@ Currently we support a single public endpoint for creating paper embeddings from
 
 Requirements:
 
-* Send a flat JSON array where objects have at least attributes for paper_id, title, abstract
+* Send a flat JSON array where objects have the required attributes for paper_id, title, abstract
+* Any additional attributes sent in JSON are ignored
 * Do not send batches of more than 16 papers at a time (you will receive a 422 HTTP response)
 
 Note that "paper_id" can be any string value and is only used to map to the generated embedding in the result.
