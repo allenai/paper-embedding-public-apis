@@ -92,4 +92,8 @@ If using SPECTER embeddings, please cite the upcoming ACL paper:
 
 ## Support / Questions
 
-Please feel free to submit an issue directly on this repository and please make this your first course of action in case of any issues or errors. You may also reach out by email to [Russell Reas -- russellr@allenai.org](mailto:russellr@allenai.org) by email directly. Thanks!
+Please feel free to submit an issue directly on this repository and please make this your first course of action in case of any issues or errors. Thanks!
+
+## Deploying
+
+Code for managing this deployment on AWS can be found [here](https://github.com/allenai/s2-cdk-sagemaker-apis).
